@@ -15,11 +15,13 @@
 
 (documentation https://url/to/documentation)
 
+(using menhir 2.1)
+
 (package
  (name icpc_domestic2021_c)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune menhir ocamlgraph)
  (tags
   (topics "to describe" your project)))
 

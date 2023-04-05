@@ -1,2 +1,9 @@
 (library
- (name icpc_domestic2021_c))
+ (name icpc_domestic2021_c)
+ (libraries ocamlgraph))
+
+(menhir
+ (modules parser))
+
+(ocamllex
+ (modules lexer))
