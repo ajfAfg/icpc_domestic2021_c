@@ -6,7 +6,6 @@ module Vertex = struct
   let equal = ( = )
 end
 
-module IdSet = Set.Make (Id)
 module IdMap = Map.Make (Id)
 module G = Graph.Persistent.Graph.Concrete (Vertex)
 
